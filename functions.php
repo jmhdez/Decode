@@ -53,13 +53,6 @@ function decode_setup() {
 	 */
 	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link' ) );
 
-	/**
-	 * Setup the WordPress core custom background feature.
-	 */
-	add_theme_support( 'custom-background', apply_filters( 'decode_custom_background_args', array(
-		'default-color' => 'E3E5E7',
-		'default-image' => '',
-	) ) );
 }
 endif; // decode_setup
 add_action( 'after_setup_theme', 'decode_setup' );
