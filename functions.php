@@ -48,11 +48,6 @@ function decode_setup() {
 		'primary' => __( 'Primary Menu', 'decode' ),
 	) );
 
-	/**
-	 * Enable support for Post Formats
-	 */
-	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link' ) );
-
 }
 endif; // decode_setup
 add_action( 'after_setup_theme', 'decode_setup' );

@@ -13,8 +13,12 @@
 
 get_header(); ?>
 
+<?php /** Este template se usa sólo en la página principal, pero no en el resto de listas (tags, categorías, etc.) */ ?>
+
 		<div id="primary" class="content-area">
 			<div id="content" class="site-content" role="main">
+
+				<h1>Soy index.php</h1>
 
 			<?php if ( have_posts() ) : ?>
 

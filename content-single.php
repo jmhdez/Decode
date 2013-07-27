@@ -4,6 +4,8 @@
  */
 ?>
 
+<?php /** Este template se usa cuando se muestran un único post */ ?>
+
 <?php if ( has_post_format( 'quote' ) ) : ?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<div class="entry-content"><?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'decode' ) ); ?></div>

@@ -1,0 +1,7 @@
+- Cambiar el color de los enlaces
+- Añadir el tagline
+- Ajustar la página de histórico
+- Arreglar accesos directos a github y twitter
+- Poner enlaces en las cabeceras de los posts
+
+Empiezo por el de los enlaces

@@ -49,7 +49,7 @@ html {
 	-ms-text-size-adjust: 100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
 body {
-	background: #fff;
+	background: #ffffff;
 }
 article,
 aside,
@@ -104,7 +104,7 @@ textarea {
 }
 
 body {
-	background: #E3E5E7;
+	background: #fcf9fa;
 	text-align: left;
 	margin: 0;
 	-webkit-overflow-scrolling: touch;
