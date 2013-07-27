@@ -1,7 +1,9 @@
-- Cambiar el color de los enlaces
+- Arreglar formato de <code></code> (queda la fuente pequeña)
 - Añadir el tagline
 - Ajustar la página de histórico
 - Arreglar accesos directos a github y twitter
-- Poner enlaces en las cabeceras de los posts
+- Dar formato a los títulos de los posts para que no se vean como los demás enlaces
+- Revisar los comentarios
+- Añadir un bloque "Quien soy" en el pie de cada post
+- Dar formato a los h3
 
-Empiezo por el de los enlaces

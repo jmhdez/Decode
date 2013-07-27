@@ -313,7 +313,7 @@ textarea {
 
 /* Links */
 a {
-	color: #009BCD;
+	color: #FF9625;
 	text-decoration: none;
 }
 
@@ -375,7 +375,7 @@ object {
 .site-header {
 	width: 100%;
 	margin: 5% auto 0;
-	border-bottom: 1px solid #009BCD;
+	border-bottom: 1px solid #FF9625;
 }
 
 .site-title {
@@ -401,7 +401,7 @@ object {
 	text-align: center;
 	font-size: 1.35em;
 	padding: 1%;
-	border-bottom: 1px solid #009BCD;
+	border-bottom: 1px solid #FF9625;
 	display: inline-block;
 }
 
@@ -475,10 +475,10 @@ object {
 	color: #444444;
 }
 .navigation-main a:hover {
-	color: #009BCD;
+	color: #FF9625;
 }
 .navigation-main a:active {
-	color: #007EA6
+	color: #FF8525
 }
 .navigation-main ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -619,14 +619,14 @@ article.page .entry-content {
 .post blockquote {
 	margin: 1.5% 0;
 	padding: 0 0 0 5%;
-	border-left: 1px solid #009BCD;
+	border-left: 1px solid #FF9625;
 	font-style: italic;
 }
 
 .post footer {
 	width: 75%;
 	margin: 0 auto;
-	border-bottom: 1px solid #009BCD;
+	border-bottom: 1px solid #FF9625;
 }
 
 .tags {
@@ -652,11 +652,11 @@ footer .date a {
 }
 
 	footer .date a:hover {
-		color: #009BCD;
+		color: #FF9625;
 	}
 	
 	footer .date a:active {
-		color: #007EA6;
+		color: #FF8525;
 	}
 
 .theme-info {
@@ -697,7 +697,7 @@ footer .date a {
 	height: 3.5%;
 	padding: 4.5% 0;
 	margin-bottom: 4.5%;
-	border-bottom: 1px solid #009BCD;
+	border-bottom: 1px solid #FF9625;
 	z-index: 11;
 }
 
@@ -810,12 +810,12 @@ footer .date a {
 	display: inline-block;
 }
 	.social-reply .replylink:hover {
-		color: #009BCD;
+		color: #FF9625;
 		border-bottom: none;
 	}
 	
 	.social-reply .replylink:active {
-		color: #007EA6;
+		color: #FF8525;
 		border-bottom: none;
 	}
 	
@@ -830,12 +830,12 @@ footer .date a {
 }
 
 	.format-link .entry-title a:hover {
-		color: #009BCD;
+		color: #FF9625;
 		border-bottom: none;
 	}
 	
 	.format-link .entry-title a:active {
-		color: #007EA6;
+		color: #FF8525;
 		border-bottom: none;
 	}
 
@@ -1026,11 +1026,11 @@ object {
 }
 
 	.comment-metadata a:hover {
-		color: #009BCD;
+		color: #FF9625;
 	}
 	
 	.comment-metadata a:active {
-		color: #007EA6;
+		color: #FF8525;
 	}
 	
 li.comment {
@@ -1095,26 +1095,26 @@ li.comment {
 ----------------------------------------------- */
 @media only screen and (min-width: 699px) {
 a {
-	-webkit-transition: color 0.4s ease-in-out, border-bottom 0.4s ease-in-out;
-	-moz-transition: color 0.4s ease-in-out, border-bottom 0.4s ease-in-out;
-	transition: color 0.4s ease-in-out, border-bottom 0.4s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out, border-bottom 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out, border-bottom 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out, border-bottom 0.2s ease-in-out;
 	border-bottom: 0 solid rgba(69,69,69,0);
 }
 
 	a:hover {
-		color: #009BCD;
+		color: #FFB925;
 	}
 	
 	a:active {
-		color: #007EA6;
+		color: #FF8525;
 	}
 
 	.post a:hover {
-		border-bottom: 1px solid #009BCD;
+		border-bottom: 1px solid #FFB925;
 	}
 	
 	.post a:active {
-		border-bottom: 1px solid #007EA6;
+		border-bottom: 1px solid #FF8525;
 	}
 
 .site-header, .post, article.page, .comments-area {
@@ -1139,12 +1139,12 @@ a {
 	}
 	
 .site-description a:hover {
-	border-bottom: 1px solid #009BCD;
+	border-bottom: 1px solid #FF9625;
 }
 
 .site-description a:active {
-	color: #007EA6;
-	border-bottom: 1px solid #007EA6;
+	color: #FF8525;
+	border-bottom: 1px solid #FF8525;
 }
 	
 .sociallinks ul {
@@ -1285,11 +1285,11 @@ a {
 }
 
 	.theme-info a:hover {
-		border-bottom: 1px solid #009BCD;
+		border-bottom: 1px solid #FF9625;
 	}
 	
 	.theme-info a:active {
-		border-bottom: 1px solid #007EA6;
+		border-bottom: 1px solid #FF8525;
 	}
 }
 
