@@ -5,5 +5,6 @@
 - Dar formato a los títulos de los posts para que no se vean como los demás enlaces
 - Revisar los comentarios
 - Añadir un bloque "Quien soy" en el pie de cada post
+- Averiguar qué pasa con la URL. Cuando navego a un post, no cambia la URL
 - Dar formato a los h3
 
