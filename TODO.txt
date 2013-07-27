@@ -1,4 +1,3 @@
-- Arreglar formato de <code></code> (queda la fuente pequeña)
 - Añadir el tagline
 - Ajustar la página de histórico
 - Arreglar accesos directos a github y twitter
@@ -6,5 +5,3 @@
 - Revisar los comentarios
 - Añadir un bloque "Quien soy" en el pie de cada post
 - Averiguar qué pasa con la URL. Cuando navego a un post, no cambia la URL
-- Dar formato a los h3
-
