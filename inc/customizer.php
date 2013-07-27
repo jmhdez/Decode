@@ -281,15 +281,7 @@ function decode_customize_register( $wp_customize ) {
     $wp_customize->add_setting( 'show_theme_info', array(
 		'default'        => '',
 	) );
-	
-	$wp_customize->add_setting( 'html_description', array(
-		'default'        => '',
-	) );
-	
-    $wp_customize->add_setting( 'use_html_in_description', array(
-		'default'        => '',
-	) );
-	
+		
 	
 	$wp_customize->add_control( 'show_theme_info', array(
 		'label'   => 'Show Theme Info (display a line of text about the theme and its creator at the bottom of pages)',
@@ -302,24 +294,6 @@ function decode_customize_register( $wp_customize ) {
 		'priority'=> 1,
 	) );	
 	
-	$wp_customize->add_control( 'html_description', array(
-		'label'   => 'HTML for description (set this first, then save)',
-		'section' => 'decode_other_options',
-		'type'    => 'text',
-		'priority'=> 1,
-	) );
-
-	$wp_customize->add_control( 'use_html_in_description', array(
-		'label'   => 'After saving the above setting, set and save this one. Want HTML in the header\'s description?',
-		'section' => 'decode_other_options',
-		'type'       => 'radio',
-		'choices'    => array(
-			get_theme_mod( 'html_description' ) => 'Yes',
-			get_bloginfo ( 'description' ) => 'No',
-        ),
-		'priority'=> 2,
-	) );
-
 
 }
 add_action( 'customize_register', 'decode_customize_register' );

@@ -378,6 +378,10 @@ object {
 	border-bottom: 1px solid #FF9625;
 }
 
+.site-branding {
+	margin-bottom: 2em;
+}
+
 .site-title {
 	margin: 0 0 1%;
 	text-align: center;
@@ -407,6 +411,7 @@ object {
 
 .site-description {
 	text-align: center;
+	font-size: 1.3em;
 }
 
 .sociallinks {
