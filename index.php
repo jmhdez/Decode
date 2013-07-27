@@ -18,8 +18,6 @@ get_header(); ?>
 		<div id="primary" class="content-area">
 			<div id="content" class="site-content" role="main">
 
-				<h1>Soy index.php</h1>
-
 			<?php if ( have_posts() ) : ?>
 
 				<?php /* Start the Loop */ ?>
