@@ -1,7 +1,56 @@
+**- Averiguar qué pasa con la URL. Cuando navego a un post, no cambia la URL
+	No pasa nada. Es porque como no está configurado el htaccess, usa de url
+	test.domain.com/?p=123, y debe ser que algo acaba ocultado el querystring
+
+
 - Ajustar la página de histórico
 - Arreglar accesos directos a github y twitter
 - Dar formato a los títulos de los posts para que no se vean como los demás enlaces
 - Revisar los comentarios
 - Añadir un bloque "Quien soy" en el pie de cada post
-- Averiguar qué pasa con la URL. Cuando navego a un post, no cambia la URL
+- Añadir botones para compartir en la parte de abajo del post
+- Dar formato a las entradas relacionadas
+- Añadir licencia
 
+Botón de twitter:
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="gulnor">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+Botón de FB:
+
+<!-- En teoría esto va justo tras abrir el body -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- ...y esto donde quieras que salga. en el data-href va la url que quieres compartir -->
+<div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-action="recommend"></div>
+
+Botón de Google Plus:
+
+<!-- Place this tag where you want the +1 button to render. -->
+<div class="g-plusone" data-size="medium"></div>
+
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'es'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+Linked in:
+
+<script src="//platform.linkedin.com/in.js" type="text/javascript">
+ lang: es_ES
+</script>
+<script type="IN/Share" data-counter="right"></script>
